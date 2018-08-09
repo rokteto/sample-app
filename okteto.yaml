@@ -7,3 +7,10 @@ containers:
     image: nginx:alpine
     ports:
       - http:8080:http:80
+    resources:
+      limits:
+      memory: "128Mi"
+      cpu: "500m"
+      requests:
+        memory: "64Mi"
+        cpu: "250m"
