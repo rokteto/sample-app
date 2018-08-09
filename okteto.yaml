@@ -1,5 +1,5 @@
 name: sample-app
-replicas: 1
+replicas: 2
 public: true
 containers:
   nginx:
