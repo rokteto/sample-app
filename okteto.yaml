@@ -3,6 +3,6 @@ replicas: 3
 public: true
 containers:
   nginx:
-    image: nginx:1.12-alpine
+    image: nginx:alpine
     ports:
       - http:8080:http:80
