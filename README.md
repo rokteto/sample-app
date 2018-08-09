@@ -1,8 +1,9 @@
 # sample-app
-sample app with an okteto manifest. 
+A sample application with the corresponding okteto manifest. 
 
-When deployed, it launches 3 instances of the NGINX container. 
+When deployed, okteto will launch 3 instances of the NGINX container, with a load balancer in the front. It will also create a public endpoint, which will be displayed in the UI.
+
 
 If deployed in K8, it will also include CPU and Memory constraints.
 
-Try it by yourself by going to https://okteto.com 
+*Try it yourself by going to https://okteto.com*
